@@ -337,23 +337,6 @@
 </div>
 
     <footer class="post-footer">
-          <div class="followme">
-  <span>欢迎关注我的其它发布渠道</span>
-
-  <div class="social-list">
-
-      <div class="social-item">
-        <a target="_blank" class="social-link" href="/atom.xml">
-          <span class="icon">
-            <i class="fa fa-rss"></i>
-          </span>
-
-          <span class="label">RSS</span>
-        </a>
-      </div>
-  </div>
-</div>
-
           <div class="post-tags">
               <a href="/tags/html/" rel="tag"><i class="fa fa-tag"></i>html</a>
           </div>
@@ -363,6 +346,20 @@
     </footer>
   </article>
 </div>
+
+if (hexo-config('motion.transition.post_block')) {
+    .post-block {
+     opacity: 0;
+     margin-top: 60px;
+     margin-bottom: 60px;
+     padding: 25px;
+     -webkit-box-shadow: 0 0 5px rgba(202, 203, 203, .5);
+     -moz-box-shadow: 0 0 5px rgba(202, 203, 204, .5);
+    }
+    .pagination, .comments {
+      opacity: 0;
+    }
+}
 
 
 
