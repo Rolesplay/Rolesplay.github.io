@@ -1,5 +1,5 @@
     
-	const mykey = {weather:'888888888888888888888'};
+	const mykey = {weather:'5788f538de3205bbd8fc8575c1ad5159'};
 	//let locationurl = 'https://ip.seeip.org/geoip';
 	let locationurl = 'https://extreme-ip-lookup.com/json/';
 	let cityname ='';
